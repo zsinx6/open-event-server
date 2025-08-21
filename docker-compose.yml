@@ -24,7 +24,7 @@ x-defaults: &defaults
 
 services:
   postgres:
-    image: 17-bookworm-postgis-3
+    image: nickblah/postgis
     container_name: opev-postgres
     restart: unless-stopped
     volumes:
